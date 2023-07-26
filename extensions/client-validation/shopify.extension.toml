@@ -15,7 +15,7 @@ handle = "client-validation"
 # https://shopify.dev/docs/api/checkout-ui-extensions/unstable/targets-overview
 # [START client-validation.extension-point-config]
 [[extensions.targeting]]
-module = "./src/index.js"
+module = "./src/Checkout.js"
 target = "purchase.checkout.contact.render-after"
 # [END client-validation.extension-point-config]
 
